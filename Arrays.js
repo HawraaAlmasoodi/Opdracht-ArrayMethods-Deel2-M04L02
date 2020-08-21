@@ -30,7 +30,7 @@ console.log(doubledArrayValues(array));*/
 let array = [2, 3, 4, 5];
 
 let doubledArrayValues = function (arr) {
-    return arr.map(num => num * 2)
+    return arr.map(num => num * 2);
 
 };
 
@@ -43,7 +43,7 @@ let array2 = [2, 5, 7, 9,];
 
 let containsNumBiggerThan10 = function (arr) {
     return arr.some(item => {
-        return item > 10
+        return item > 10;
     });
 
 };
